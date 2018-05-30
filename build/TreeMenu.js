@@ -12,6 +12,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 var _TreeSubMenu = require('./TreeSubMenu');
 
 var _TreeSubMenu2 = _interopRequireDefault(_TreeSubMenu);
@@ -25,15 +29,15 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var propTypes = {
-  icon: _react.PropTypes.string,
-  iconColor: _react.PropTypes.string,
-  title: _react.PropTypes.string,
-  label: _react.PropTypes.string,
-  labelColor: _react.PropTypes.string,
-  showLabel: _react.PropTypes.bool,
-  items: _react.PropTypes.array,
-  onClick: _react.PropTypes.func,
-  onItemClick: _react.PropTypes.func
+  icon: _propTypes2.default.string,
+  iconColor: _propTypes2.default.string,
+  title: _propTypes2.default.string,
+  label: _propTypes2.default.string,
+  labelColor: _propTypes2.default.string,
+  showLabel: _propTypes2.default.bool,
+  items: _propTypes2.default.array,
+  onClick: _propTypes2.default.func,
+  onItemClick: _propTypes2.default.func
 };
 
 var defaultProps = {

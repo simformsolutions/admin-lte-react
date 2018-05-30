@@ -10,6 +10,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 var _classnames = require('classnames');
 
 var _classnames2 = _interopRequireDefault(_classnames);
@@ -23,14 +27,14 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var propTypes = {
-  title: _react.PropTypes.string,
-  status: _react.PropTypes.string,
-  solid: _react.PropTypes.bool,
-  expandable: _react.PropTypes.bool,
-  removable: _react.PropTypes.bool,
-  collapsed: _react.PropTypes.bool,
-  loading: _react.PropTypes.bool,
-  children: _react.PropTypes.node
+  title: _propTypes2.default.string,
+  status: _propTypes2.default.string,
+  solid: _propTypes2.default.bool,
+  expandable: _propTypes2.default.bool,
+  removable: _propTypes2.default.bool,
+  collapsed: _propTypes2.default.bool,
+  loading: _propTypes2.default.bool,
+  children: _propTypes2.default.node
 };
 
 var defaultProps = {

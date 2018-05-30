@@ -10,6 +10,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _propTypes = require('prop-types');
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
 var _classnames = require('classnames');
 
 var _classnames2 = _interopRequireDefault(_classnames);
@@ -23,13 +27,13 @@ function _possibleConstructorReturn(self, call) { if (!self) { throw new Referen
 function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
 
 var propTypes = {
-  icon: _react.PropTypes.string,
-  text: _react.PropTypes.string,
-  count: _react.PropTypes.string,
-  countSign: _react.PropTypes.string,
-  progressCount: _react.PropTypes.number,
-  progressText: _react.PropTypes.string,
-  color: _react.PropTypes.string
+  icon: _propTypes2.default.string,
+  text: _propTypes2.default.string,
+  count: _propTypes2.default.string,
+  countSign: _propTypes2.default.string,
+  progressCount: _propTypes2.default.number,
+  progressText: _propTypes2.default.string,
+  color: _propTypes2.default.string
 };
 
 var InfoBox = function (_Component) {
