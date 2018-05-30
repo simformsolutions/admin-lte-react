@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react';
+import React from 'react'; import PropTypes from 'prop-types';
 import { Router, IndexRoute, Route, browserHistory } from 'react-router';
 
 import Layout from './components/layout/Layout';

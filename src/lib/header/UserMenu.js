@@ -1,4 +1,4 @@
-import React, { PropTypes } from 'react';
+import React from 'react'; import PropTypes from 'prop-types';
 
 import UserMenuBody from './UserMenuBody';
 import UserMenuLink from './UserMenuLink';
